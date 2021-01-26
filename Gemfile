@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -44,20 +46,20 @@ group :development do
   gem 'spring'
 end
 
-#group :production do
-  #use postgres on heroku
+# group :production do
+# use postgres on heroku
 #  gem 'pg'
 #  gem 'rails_12factor'
-#end
+# end
 
 group :test do
-    gem 'rspec-rails'
-    gem 'mongoid-rspec'
-    gem 'capybara'
+  gem 'capybara'
+  gem 'mongoid-rspec'
+  gem 'rspec-rails'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem 'mongoid'
 gem 'httparty'
+gem 'mongoid'
 gem 'responders'
