@@ -16,3 +16,7 @@
 !/log/.keep
 /tmp
 *.zip
+/vendor/bundle/ruby/2.7.0/bin
+/vendor/bundle/ruby/2.7.0/cache
+/vendor/bundle/ruby/2.7.0/specifications
+
