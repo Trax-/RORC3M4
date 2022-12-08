@@ -111,8 +111,11 @@ GEM
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.7.1)
+    mail (2.8.0)
       mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
     marcel (1.0.2)
     matrix (0.4.2)
     method_source (1.0.0)
@@ -142,17 +145,17 @@ GEM
       net-protocol
     net-pop (0.1.2)
       net-protocol
-    net-protocol (0.1.3)
+    net-protocol (0.2.1)
       timeout
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.13.9-x86_64-linux)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
-    psych (4.0.6)
+    psych (5.0.1)
       stringio
-    public_suffix (5.0.0)
-    racc (1.6.0)
+    public_suffix (5.0.1)
+    racc (1.6.1)
     rack (2.2.4)
     rack-test (2.0.2)
       rack (>= 1.3)
@@ -183,7 +186,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
-    rdoc (6.4.0)
+    rdoc (6.5.0)
       psych (>= 4.0.0)
     ref (2.0.0)
     regexp_parser (2.6.1)
@@ -211,13 +214,13 @@ GEM
     sdoc (2.4.0)
       rdoc (>= 5.0)
     spring (4.1.0)
-    sqlite3 (1.5.3-x86_64-linux)
-    stringio (3.0.2)
+    sqlite3 (1.5.4-x86_64-linux)
+    stringio (3.0.3)
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
       ref
     thor (1.2.1)
-    timeout (0.3.0)
+    timeout (0.3.1)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
@@ -262,4 +265,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.3.23
+   2.3.25
