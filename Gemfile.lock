@@ -233,7 +233,7 @@ DEPENDENCIES
   jquery-rails
   mongoid
   mongoid-rspec
-  rails
+  rails (~> 2.2.2)
   responders
   rspec-rails
   sdoc
