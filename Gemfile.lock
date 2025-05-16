@@ -14,7 +14,7 @@ GEM
       nokogiri (~> 1.18.3)
       racc
       rack (~> 3.1.11)
-      rack-session (>= 1.0.1)
+      rack-session (~> 2.1.1)
       rack-test (>= 0.6.3)
       rails-dom-testing (~> 2.2.2)
       rails-html-sanitizer (~> 1.6)
@@ -142,7 +142,7 @@ GEM
     public_suffix (5.0.3)
     racc (1.8.1)
     rack (~> 3.1.11)
-    rack-session (2.0.0)
+    rack-session (~> 2.1.1)
       rack (>= 3.0.0)
     rack-test (2.1.0)
       rack (>= 1.3)
